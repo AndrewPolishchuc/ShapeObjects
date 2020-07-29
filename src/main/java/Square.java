@@ -24,7 +24,7 @@ public class Square extends GeometricFigure {
     }
 
     @Override
-    public String getSpecialMethod() {
+    public String getSpecialPropertyOfFigure() {
         return "сторона " + String.format("%.2f",getSideLenth());
     }
 

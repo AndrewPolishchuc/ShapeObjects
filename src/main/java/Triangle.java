@@ -32,7 +32,7 @@ public class Triangle extends GeometricFigure {
     }
 
     @Override
-    public String getSpecialMethod() {
+    public String getSpecialPropertyOfFigure() {
         return "со сторонами " + seeSideLengths();
     }
 

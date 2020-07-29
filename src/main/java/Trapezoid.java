@@ -29,7 +29,7 @@ public class Trapezoid extends GeometricFigure {
     }
 
     @Override
-    public String getSpecialMethod() {
+    public String getSpecialPropertyOfFigure() {
         return "высота: " + String.format("%.2f",getHeight());
     }
 

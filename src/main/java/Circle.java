@@ -24,7 +24,7 @@ public class Circle extends GeometricFigure {
     }
 
     @Override
-    public String getSpecialMethod() {
+    public String getSpecialPropertyOfFigure() {
         return "с радиусом " + String.format("%.2f",getRadius());
     }
 

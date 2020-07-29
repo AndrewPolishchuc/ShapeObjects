@@ -9,14 +9,14 @@ public abstract class GeometricFigure {
 
     public abstract String getFigureName();
 
-    public abstract String getSpecialMethod();
+    public abstract String getSpecialPropertyOfFigure();
 
     @Override
     public String toString() {
         StringBuilder outputString = new StringBuilder();
         outputString.append("Фигура : ").append(getFigureName())
                 .append(", площадь: ").append(String.format("%.2f",getArea())).append(" ед., ")
-                .append(getSpecialMethod())
+                .append(getSpecialPropertyOfFigure())
                 .append(", цвет: ").append(getColor());
         return outputString.toString();
     }
